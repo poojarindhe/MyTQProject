@@ -1,0 +1,18 @@
+package WeekendTest;
+
+import java.util.Scanner;
+
+public class Nseries {
+
+	public static void main(String[] args)
+	{
+      Scanner sc=new Scanner(System.in);
+      int n=sc.nextInt();
+      
+      for(int i=1;i<=10;i++)
+      {
+    	  System.out.print((i*i)+(i*i*i)+" ");
+      }
+     // System.out.println();
+    }
+}
