@@ -18,7 +18,7 @@ public class OverloadDemo
 	}
 	void area(int h,int b)
 	{
-		System.out.println("Area of Rectangle =" +(h*b/2));
+		System.out.println("Area of Triangle =" +(h*b/2));
 	}
 	public static void main(String[] args) 
 	{

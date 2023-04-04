@@ -1,4 +1,5 @@
-package com.containment;
+package com.array;
+
 
 class Department
 {
@@ -21,7 +22,7 @@ class Department
 		return dname;
 	}
 }
-public class Employee {
+public class Employeec {
 	int id;
 	String name;
 	int salary;
@@ -63,7 +64,7 @@ public class Employee {
 
 	public static void main(String[] args) 
 	{
-       Employee e1= new Employee();
+       Employeec e1= new Employeec();
        e1.setId(11);
        e1.setName("Santosh");
        e1.setSalary(150000);
@@ -75,3 +76,4 @@ public class Employee {
      }
 
 }
+

@@ -1,6 +1,6 @@
 package com.third;
 
-public class Emp 
+ class Emp 
 {
 	private int id;
 	private String name;

@@ -21,7 +21,7 @@ public class OddNumber {
     	  //  a[i]= sc.nextInt();
     	    if(a[i]%2!=0)
     	    {
-    	    	// System.out.println("odd num"+a[i]);
+    	    	System.out.println("odd num"+a[i]);
     	    }
 			/*
 			 * else if(a[i]%2==0) { System.out.println("even num"+a[i]); }
