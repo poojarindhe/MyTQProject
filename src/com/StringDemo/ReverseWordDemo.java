@@ -7,8 +7,8 @@ public class ReverseWordDemo
 	public static void reverseword(String str)
 	{
 		String []s=str.split(" ");
-		String revstr="";
-		for(int i=0;i<s.length;i++)
+		String middleword="";
+		for(int i=1;i<s.length-1;i++)
 		{
 			String word=s[i];
 			String myrevword = "";
@@ -17,9 +17,9 @@ public class ReverseWordDemo
 			{
 				myrevword = myrevword + word.charAt(j);
 			}
-			revstr=revstr + myrevword + " ";
+			middleword=middleword + myrevword + " ";
 		}
-		System.out.println(revstr);
+		System.out.println(s[0]+" "+middleword+" "+s[s.length-1]);
 		
 	}
 
